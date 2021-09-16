@@ -1,0 +1,7 @@
+1.For task 1 and task 2  there is one project TestAppWithSignalR where there are three controller Roster,RosterApi and Users controller.
+I have use SqlServer database to store data so plz  configure  connectionstring in appsetting.json file according to your db setting like servername, username and password.
+And i have include json document of api
+
+2.And for task 3 and task 4 i have create two project task Task3 and Task4 respectively
+
+Thank you.

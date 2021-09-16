@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "340c8b04-89fb-4c39-8afd-fb39c6143072",
+		"name": "Task1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add Hero",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "heLOgen92",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "BatMan123",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"FullName\": \"Bishow\",\r\n    \"GroupName\": \"dasd\",\r\n    \"Age\" :18\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:39487/api/RosterApi",
+					"host": [
+						"localhost"
+					],
+					"port": "39487",
+					"path": [
+						"api",
+						"RosterApi"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

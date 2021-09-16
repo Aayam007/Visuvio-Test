@@ -1,0 +1,30 @@
+﻿@model IEnumerable<TestAppWithSignalR.Models.Roster>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<div class="toast">
+    <div class="toast-header">
+        Message
+    </div>
+    <div class="toast-body">
+
+    </div>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Full Name</th>
+            <th>Group Name</th>
+            <th>Age</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+
+</table>
+
+
